@@ -209,7 +209,12 @@ You can also check logs, useful for developers, In the below example I'll displa
 ```
 
 ## Step 8 - Connecting to your server
-For this step you might want to get your external IP address. I usually use [SpeedTest](https://www.speedtest.net/) to get my IP as fast as possible, but you can use any method you like.
+- Method 1 - In Game:
+You can search for the server in game on the `Join Game` tab, then check `Community` box and complete the search box with your server name.
+This might not always work for others because your server might not be in their region, but don't fear because we have another way so you might want to read `Method 2`.
+
+- Method 2 - Steam Server List:
+For this method you might want to get your external IP address. I usually use [SpeedTest](https://www.speedtest.net/) to get my IP as fast as possible, but you can use any service you like.
 You can use a service like [CHECK-HOST](https://check-host.net/check-udp?lang=en) and enter `<your_ip>:2457` and test if it gives you `Open or filtered`, if so, then you are good to go.
 On your Steam Client, go to `View > Servers > FAVORITES` and click `ADD A SERVER` and add `<your_ip>:2457` then click `ADD THIS SERVER TO FAVORITES`, then it will appear in your list. Click connect and enter the password that you configured in the previous steps(`Step 6 - Step 7` the field `secret`), after that your game will start automatically then click `Start` in game, it will ask you for the password again and it should start your session.
 
