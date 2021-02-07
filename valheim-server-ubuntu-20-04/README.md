@@ -198,7 +198,7 @@ Now you can start the service:
 ```bash
 sudo systemctl start valheim-server.service
 ```
-An voila! You service is now working, and it will also work on reboot. Just give it a test and see if it works.
+And voilà! You service is now working, and it will also work on reboot. Just give it a test and see if it works.
 If you want to manually restart it, just run:
 ```bash
 sudo systemctl restart valheim-server.service
