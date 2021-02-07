@@ -115,7 +115,7 @@ drwxrwxr-x 5 steam steam 4.0K Feb  7 00:56  steamapps
 drwxrwxr-x 6 steam steam 4.0K Feb  7 00:56  valheim_server_Data
 -rwxrwxr-x 1 steam steam 6.2K Feb  7 00:56  valheim_server.x86_64
 ```
-Now all you need to do is modify the file `stgart_server.sh` which contains:
+Now all you need to do is modify the file `start_server.sh` which contains:
 ```bash
 export templdpath=$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=./linux64:$LD_LIBRARY_PATH
