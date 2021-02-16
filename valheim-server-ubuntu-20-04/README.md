@@ -53,6 +53,16 @@ We will use this user from the moment, so we can log in with him now:
 ```bash
 sudo su - steam
 ```
+## Step 5.1 - (Optional) Create password for steam user
+```bash
+sudo passwd steam
+```
+
+## Step 5.2 - Add 'steam' user into sudoers
+```bash
+usermod -aG sudo steam
+```
+
 ## Step 6 - Install
 As `steam` user we will start the installation process, and for this we need to link the steamcmd (in `steam` home directory):
 ```bash
